@@ -18,4 +18,6 @@ Công nghệ Hyper-V ảo hóa phần cứng và cung cấp môi trường mà t
 
   Nếu một máy ảo có bộ nhớ nhỏ hơn với bộ nhớ khởi động của nó và khi máy ảo khởi động lại. Hyper-V cần thêm bộ nhớ để restart máy ảo. Có thể do trạng thái của máy ảo, Hyper-V không thể luôn có bộ nhớ bổ sung. Điều này có thể khiến máy ảo khởi động thất bại. Tính năng Smart Paging được sử dụng để thu hẹp giữa bộ nhớ tối thiểu và bộ nhớ khởi động, cho phép máy ảo khởi động lại tin cậy hơn.
   
-- **Export and import**: 
+- **Export and import**: Tim hiểu về các lựa chọn export và import trong Hyper-V cho phép di chuyển máy ảo qua host khác
+
+- **Hyper-V Replica**: 

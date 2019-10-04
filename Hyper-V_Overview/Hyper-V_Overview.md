@@ -13,6 +13,7 @@ Công nghệ Hyper-V ảo hóa phần cứng và cung cấp môi trường mà t
 - **Checkpoints and snapshots**: Virtual machine checkpoints ( hay trước đây gọi là virtual machine snapshots ) dùng để capture lại trạng thái, dữ liệu và cấu hình phần cứng của máy ảo đang chạy
 
 - **Dynamic Memory**: Giúp củng cố tài nguyên và cải thiện độ tin cậy khi khởi động lại máy ảo.
+
   Windows đòi hỏi nhiều bộ nhớ trong quá trình startup hơn khi đang chạy bình thường. Nếu ta gắn thêm bộ nhớ thì sẽ không thể lấy lại bộ nhớ sau khi máy ảo khởi động. Ở Windows Server 2012, **Dynamic Memory** giới thiệu một thiết lập bộ nhớ tối thiểu, cho phép Hyper-V lấy lại bộ nhớ không sử dụng từ máy ảo
 
   Nếu một máy ảo có bộ nhớ nhỏ hơn với bộ nhớ khởi động của nó và khi máy ảo khởi động lại. Hyper-V cần thêm bộ nhớ để restart máy ảo. Có thể do trạng thái của máy ảo, Hyper-V không thể luôn có bộ nhớ bổ sung. Điều này có thể khiến máy ảo khởi động thất bại. Tính năng Smart Paging được sử dụng để thu hẹp giữa bộ nhớ tối thiểu và bộ nhớ khởi động, cho phép máy ảo khởi động lại tin cậy hơn.
